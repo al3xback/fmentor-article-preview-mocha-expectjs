@@ -4,7 +4,8 @@ import got from 'got';
 
 const { JSDOM } = jsdom;
 
-const url = 'https://al3xback.github.io/fmentor-article-preview-mocha-expectjs/';
+const url =
+	'https://al3xback.github.io/fmentor-article-preview-mocha-expectjs/';
 
 const getData = () => {
 	return got(url)
